@@ -1,8 +1,7 @@
 body {
-  font-family: "Bruno Ace", cursive;
-  font-family: "Inter", sans-serif;
-  font-family: "Lato", sans-serif;
+  font-family: "Lobster", cursive;
   text-align: center;
+  background-color: #99beb7;
 }
 
 ul {
@@ -13,12 +12,35 @@ ul {
 li {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
+
+#main-icon {
+  padding: 10px;
+  font-size: 50px;
+}
+
+#temperature {
+  font-size: 40px;
+}
+
+.units {
+  position: relative;
+  font-size: 16px;
+  bottom: 19px;
+}
 
 .weather-app {
   max-width: 400px;
   max-height: 800px;
   margin: 30px auto;
   padding: 1em;
-  border: 1px solid #e3dec8;
+  border: 2px solid #ca3c4a;
   border-radius: 5px;
+  background-color: #e3dec8;
+}
+
+.description {
+  margin: 20px;
 }
