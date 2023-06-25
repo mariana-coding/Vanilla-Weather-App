@@ -25,6 +25,10 @@ a {
   font-size: 40px;
 }
 
+#main-condition {
+  font-size: 20px;
+}
+
 .units {
   position: relative;
   font-size: 16px;
