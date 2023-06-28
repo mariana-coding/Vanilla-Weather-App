@@ -11,6 +11,7 @@ ul {
 
 li {
   list-style: none;
+  text-transform: capitalize;
 }
 a {
   text-decoration: none;
