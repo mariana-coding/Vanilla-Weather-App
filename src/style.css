@@ -54,3 +54,7 @@ a {
   margin: 20px;
   padding-bottom: 10px;
 }
+.units .active {
+  color: black;
+  cursor: default;
+}
