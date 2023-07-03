@@ -58,3 +58,19 @@ a {
   color: black;
   cursor: default;
 }
+
+.weather-forecast-date {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.weather-forecast-temperature {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
